@@ -1,0 +1,116 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  text-transform: capitalize;
+  padding-right: 25px;
+}
+
+.navLeft {
+  flex: 1;
+}
+
+.navRight {
+  flex-direction: row-reverse;
+}
+
+.navRight > a:nth-child(3) {
+  background: #4285f4;
+  color: white;
+  padding: 5px;
+}
+
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.contentForm > img {
+  height: 100%;
+  align-self: center;
+}
+
+.contentForm > form {
+  align-self: center;
+  margin-top: 50px;
+}
+
+.searchIcon:before {
+  content: '<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>';
+  position: relative;
+  left: 100px;
+}
+
+input[type="text"] {
+  width: 650px;
+  height: 40px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.contentButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.contentButtons > a {
+  background: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #666;
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  height: 27px;
+}
+
+.easter {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.easter > img {
+  align-self: center;
+}
+
+.offerBy {
+  display: flex;
+  justify-content: center;
+}
+
+.offerBy > p {
+  color: black;
+}
+
+.offerBy > p > a {
+  color: blue;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+  font-size: 25px;
+  width: 100%;
+}
+
+.footerNav > a:nth-child(2) {
+  color: black;
+  margin-right: 135px;
+}
